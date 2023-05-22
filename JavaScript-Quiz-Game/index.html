@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+    <div class="text">
+      <h1 class="instructions_head">INSTRUCTIONS</h1>
+      <ol>
+          <h4><b><li>To start the Quiz, click the “Start” button.</li>
+          <li>For each question, there are four options
+              select the BEST one by clicking it.</li>
+          <li>You will be given 10 seconds to choose and select the corect option.</li>
+          <li>Once you move to next question you won't be able to move to previous question</li>
+          <li>Move to the next question by clicking the “Next” button at the bottom right corner of the page.</li>
+          <li>When you have completed the Quiz, you will be given your score and then you can either choose
+              to play again by clicking the "restart" button or finish the quiz and give your valuable feedback.</li></b></h4>
+      </ol>
+  </div>
+  <button id="start-button">Start</button>
+    </div>
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question"></span>
+        </div>
+        <div class="timer-div">
+          <img class="timer-image" src="Timer.png" />
+          <span class="time-left">10s</span>
+        </div>
+      </div>
+      <div id="container">
+        <!-- questions and options will be displayed here -->
+      </div>
+      <button id="next-button">Next</button>
+      <a href="index.html"><button id="exit-button">Exit</button></a>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">Demo Score</div>
+      <button id="restart">Restart</button>
+      <div>
+      <a href="feedbackform.html"><button type="submit" class="submit-button"
+        style="align-content: center;">
+        <b>Finish</b></button></a></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

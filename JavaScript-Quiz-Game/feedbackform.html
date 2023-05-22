@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Quiz Game
+        </title>
+        <style>
+            body
+            {
+                background-image: url(homepage.png);
+                display: flex;
+                flex-direction: column;
+            }
+            .feedback-text-area
+            {
+                width: 300px;height: 150px;
+            }
+            .feedback-submit
+            {
+                width: 60px; height: 20px; background-color: darkgrey;
+            font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><b>Please share your valuable feedback</b></h2>
+        <form><fieldset>
+            <b>Enter Your Name:</b><br>
+            <input type="text"><br><br>
+            <b>Enter Date :</b><br>
+            <input type="date"><br>
+            <br>
+            <b>Gender:</b><br>
+            <select name="gender" id="gender">
+                <option>male</option>
+                <option>female</option>
+                <option>others</option>
+            </select>
+            <br>
+            <br>
+            <b>Enter E-mail ID</b>
+            <br>
+            <input type="email" ><br>
+            <br>
+            <textarea rows="2" cols="2" placeholder="Share your Feedback" class="feedback-text-area"></textarea><br>
+            <a href="Thankyou.html"><button type="button" class="feedback-submit">Submit</button></a><br>
+            </form>
+            <legend>Feedback</legend></fieldset>
+        </form>
+        <center><h1>Thank You</h1></center>
+    </body>
+</html>
