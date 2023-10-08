@@ -1,1 +1,1 @@
-# JavaScript-Quiz-Game
+QuizGame
